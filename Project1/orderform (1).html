@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Chef Ethan's personal service order  - Order Form</title>
+  </head>
+  <body>
+    <form action="processorder.php" method="post">
+    <table style="border: 0px;">
+    <tr style="background: #cccccc;">
+      <td style="width: 150px; text-align: center;">Item</td>
+      <td style="width: 15px; text-align: center;">Quantity</td>
+    </tr>
+    <tr>
+      <td>length of service in months</td>
+      <td><input type="text" name="lengthofserviceqty" size="2" maxlength="2" /></td>
+    </tr>
+    <tr>
+     <td>shift hours</td>
+     <td><input type="text" name="hourqty" size="2" maxlength="2" /></td>
+    </tr>
+    <tr>
+     <td>days of the week</td>
+     <td><input type="text" name="weekqty" size="1" maxlength="1" /></td>
+    </tr>
+    <tr>
+     <td colspan="2" style="text-align: center;"><input type="submit" value="Submit Order" /></td>
+    <tr>
+     <td>What is your diet?</td>
+     <td><select name="diet">
+     <option value = "a">I'm a vegetarian</option>
+     <option value = "b">I have no special food requests</option>
+     <option value = "c">I prefer meat dominant dishes</option>
+     <option value = "d">I also have a pet that I want you to cook for</option>
+     </select>
+     </td>
+    </tr>
+    </table>
+    </form>
+  </body>
+</html>
